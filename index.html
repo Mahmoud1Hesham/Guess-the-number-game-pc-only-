@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+    />
+    <title>Guess the number</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About me</li>
+            <li>More Games</li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Guess The number</h1>
+        <p>between 1 and 10</p>
+    </header>
+    <div class="randomnum"><span class="secnum">?</span></div>
+    <section>
+      <div class="game">
+          <div class="gameinfo">
+              <div class="input"><input type="number" id="input" /></div>
+              <div class="output">
+                  <p class="message"><span>🤔</span> Start guessing ...</p>
+                  <p><span>❤</span>  Lives : <span class="lives">5</span> </p>
+                  <p><span>🥇</span> Highest Score : <span class="hscore">0</span> </p>      
+                </div>        
+            </div>
+            <div class="btns">
+                <button class=" btn check">Check</button>
+                <button class=" btn again">Again</button>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <p>
+            This App Made by
+            <a href="https://github.com/Mahmoud1Hesham" target="_blank">Mahmoud Hesham</a>
+            All Rights Are Reserved
+        </p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
