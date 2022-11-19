@@ -33,6 +33,7 @@ const displayMessage = (msg) => {
             score--
             currentlives.textContent = `${score}`;
             input.value = "";
+            input.focus({focusVisible: true});
         }
         else{
             message.textContent='💥 Game Over !';
@@ -49,6 +50,7 @@ const displayMessage = (msg) => {
                 score--
                 currentlives.textContent = `${score}`;
                 input.value = "";
+                input.focus({focusVisible: true});
             }
             else{
                 message.textContent='💥 Game Over !';
